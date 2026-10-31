@@ -1,0 +1,4 @@
+#!/bin/bash
+# Reload AirDrop's daemon so the tweak is injected without a full respring.
+killall -9 sharingd 2>/dev/null || true
+exit 0

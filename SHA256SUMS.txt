@@ -1,0 +1,2 @@
+f7b2e58227504efd2200c173f47540606913dae6c8eb2b2dcb2bdc03abf32ab7  com.burc334.airdropipafix_1.0.0_iphoneos-arm64.deb
+3df2f47f157d9d693a071247494309e3b3e12c9414b9e87df8aa3f1a1d7da4b4  com.burc334.airdropipafix_1.0.0_iphoneos-arm64e.deb

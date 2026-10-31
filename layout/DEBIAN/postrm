@@ -1,0 +1,4 @@
+#!/bin/bash
+# Restore stock AirDrop behavior immediately after removal.
+killall -9 sharingd 2>/dev/null || true
+exit 0

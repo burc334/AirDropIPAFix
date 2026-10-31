@@ -1,0 +1,12 @@
+Package: com.burc334.airdropipafix
+Name: AirDrop IPA Fix
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: Stops AirDrop from installing .ipa files automatically; received IPAs are saved as regular files.
+Depiction: https://burc334.github.io/AirDropIPAFix/
+Icon: https://burc334.github.io/AirDropIPAFix/icon.png
+SileoDepiction: https://burc334.github.io/AirDropIPAFix/depiction.json
+Maintainer: burc334
+Author: burc334
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 16.0)

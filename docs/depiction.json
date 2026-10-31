@@ -1,0 +1,73 @@
+{
+  "class": "DepictionTabView",
+  "minVersion": "0.1",
+  "tintColor": "#0284C7",
+  "tabs": [
+    {
+      "class": "DepictionStackView",
+      "tabname": "Details",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "AirDrop IPA Fix",
+          "subtitle": "Version 1.0.0"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "AirDrop IPA Fix stops AirDrop from installing `.ipa` files automatically. Received IPAs are saved as regular files."
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package",
+          "text": "com.burc334.airdropipafix"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "RootHide",
+          "text": "Tested on iOS 16 (palera1n, RootHide) and iOS 18 (Dopamine 3, RootHide)"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Rootless",
+          "text": "Expected to work on iOS 16+ rootless jailbreaks"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### What it does\n\n- Stops AirDrop from installing `.ipa` files automatically.\n- Saves received IPAs as regular files.\n- Leaves normal AirDrop for PDFs, photos, and other files unchanged."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### What it does not do\n\n- No preference pane.\n- No \u201cOpen With\u201d picker.\n- No changes to your download location.\n- No changes to how IPAs are opened from Files or Safari."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Install\n\n1. Download the matching deb: RootHide (`iphoneos-arm64e`) or Rootless (`iphoneos-arm64`).\n2. Install with Sileo, Zebra, or Filza.\n3. Respring if `sharingd` does not reload automatically."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### Verification\n\nSHA-256 checksums are published in `SHA256SUMS.txt` with the GitHub release."
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "License",
+          "text": "MIT"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Changelog",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 1.0.0\n\n- Initial release."
+        }
+      ]
+    }
+  ]
+}
