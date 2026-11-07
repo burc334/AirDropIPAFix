@@ -1,105 +1,88 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" content="#0284C7"
-  <meta name="description" content="AirDrop IPA Fix is a rootless iOS jailbreak tweak that stops AirDrop from installing .ipa files automatically.">
-  <meta property="og:title" content="AirDrop IPA Fix">
-  <meta property="og:description" content="Stops AirDrop from installing .ipa files automatically; received IPAs are saved as regular files.">
+  <meta name="theme-color" content="#0284C7">
+  <meta name="description" content="Stop AirDrop from installing .ipa files automatically.">
+  <meta property="og:title" content="AirDrop IPA Fix — rootless jailbreak tweak">
+  <meta property="og:description" content="Stop AirDrop from installing .ipa files automatically.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://burc334.github.io/AirDropIPAFix/icon.png?v=1.0.0">
-  <title>AirDrop IPA Fix</title>
-  <link rel="icon" href="icon.png?v=1.0.0">
-  <link rel="stylesheet" href="style.css">
+  <meta property="og:url" content="https://burc334.github.io/AirDropIPAFix/">
+  <meta property="og:image" content="https://burc334.github.io/AirDropIPAFix/icon.png?v=1.0.1">
+  <title>AirDrop IPA Fix — rootless jailbreak tweak</title>
+  <link rel="icon" href="icon.png?v=1.0.1">
+  <link rel="stylesheet" href="style.css?v=8d4d23b0">
 </head>
 <body>
-  <main class="page">
-    <header class="hero">
-      <div class="hero-copy">
-      <p class="eyebrow">Jailbreak tweak</p>
-      <h1>AirDrop IPA Fix</h1>
-      <p class="summary">AirDrop IPA Fix stops AirDrop from installing <code>.ipa</code> files automatically. Received IPAs are saved as regular files.</p>
-      <div class="meta">
-        <span>Version 1.0.0</span>
-        <span><code>com.burc334.airdropipafix</code></span>
-      </div>
-      </div>
-      <img class="hero-icon" src="icon.png?v=1.0.0" width="112" height="112" alt="AirDrop IPA Fix icon">
-    </header>
+<main class="page">
+<header class="hero">
+<div class="hero-copy">
+<p class="eyebrow">rootless + roothide</p>
+<h1>AirDrop IPA Fix</h1>
+<p class="summary">Stop AirDrop from installing .ipa files automatically.</p>
+<div class="actions"><a class="button secondary" href="https://github.com/burc334/AirDropIPAFix">View source on GitHub</a></div><div class="meta">
+<span>Version 1.0.1</span>
+<span>MIT</span>
+</div>
+</div>
+<img alt="" class="hero-icon" height="112" src="icon.png?v=1.0.1" width="112"/>
+</header>
+<section class="card">
+<h2>Compatibility</h2>
+<table>
+<thead>
+<tr>
+<th scope="col">Build</th>
+<th scope="col">Architecture</th>
+<th scope="col">Compatibility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>roothide</td>
+<td><code>iphoneos-arm64e</code></td>
+<td>Tested on iOS 16 (palera1n, roothide) and iOS 18 (Dopamine 3, roothide)</td>
+</tr>
+<tr>
+<td>rootless</td>
+<td><code>iphoneos-arm64</code></td>
+<td>Expected to work on iOS 16+ rootless jailbreaks</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section class="card">
+<h2>What it does</h2>
+<ul>
+<li>Stops AirDrop from installing <code>.ipa</code> files automatically.</li>
+<li>Saves received IPAs as regular files.</li>
+<li>Leaves normal AirDrop for PDFs, photos, and other files unchanged.</li>
+</ul>
+</section>
+<section class="card">
+<h2>What it does not do</h2>
+<ul>
+<li>No preference pane.</li>
+<li>No “Open With” picker.</li>
+<li>No changes to your download location.</li>
+<li>No changes to how IPAs are opened from Files or Safari.</li>
+</ul>
+</section>
 
-    <section class="card">
-      <h2>Compatibility</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Build</th>
-            <th>Architecture</th>
-            <th>Compatibility</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>RootHide</td>
-            <td><code>iphoneos-arm64e</code></td>
-            <td>Tested on iOS 16 (palera1n, RootHide) and iOS 18 (Dopamine 3, RootHide)</td>
-          </tr>
-          <tr>
-            <td>Rootless</td>
-            <td><code>iphoneos-arm64</code></td>
-            <td>Expected to work on iOS 16+ rootless jailbreaks</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-
-    <section class="card">
-      <h2>What it does</h2>
-      <ul>
-        <li>Stops AirDrop from installing <code>.ipa</code> files automatically.</li>
-        <li>Saves received IPAs as regular files.</li>
-        <li>Leaves normal AirDrop for PDFs, photos, and other files unchanged.</li>
-      </ul>
-    </section>
-
-    <section class="card">
-      <h2>What it does not do</h2>
-      <ul>
-        <li>No preference pane.</li>
-        <li>No “Open With” picker.</li>
-        <li>No changes to your download location.</li>
-        <li>No changes to how IPAs are opened from Files or Safari.</li>
-      </ul>
-    </section>
-
-    <section class="card">
-      <h2>Install</h2>
-      <ol>
-        <li>Download the matching deb:
-          <ul>
-            <li>RootHide: <code>iphoneos-arm64e</code></li>
-            <li>Rootless: <code>iphoneos-arm64</code></li>
-          </ul>
-        </li>
-        <li>Install with Sileo, Zebra, or Filza.</li>
-        <li>Respring if <code>sharingd</code> does not reload automatically.</li>
-      </ol>
-    </section>
-
-    <section class="card">
-      <h2>Verification</h2>
-      <p>SHA-256 checksums are published in <code>SHA256SUMS.txt</code> with the GitHub release.</p>
-    </section>
-
-    <section class="card">
-      <h2>License</h2>
-      <p>MIT</p>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <p>AirDrop IPA Fix · Rootless + RootHide</p>
-  </footer>
+<section class="card">
+<h2>Verification</h2>
+<p>SHA-256 checksums are published in <code>SHA256SUMS.txt</code> with the GitHub release.</p>
+</section>
+<section class="card"><h2>Support</h2><p>Open an issue on <a href="https://github.com/burc334/AirDropIPAFix/issues">GitHub</a>.</p></section>
+<section class="card">
+<h2>License</h2>
+<p>MIT</p>
+</section></main>
+<footer class="footer">
+<p>AirDrop IPA Fix · rootless + roothide</p>
+</footer>
 </body>
 </html>
